@@ -1,5 +1,29 @@
-html, body {
-    
+body, p, a {
+    font-family: arial, sans-serif;
+    font-size: small;
+    color: #222;
+}
+
+#google-logo {
+    text-align: center;
+}
+
+#search-icon {
+    opacity: 45%;
+    width: 5%;
+}
+
+#voice-search-icon {
+    width: 10%;
+}
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #609;
 }
 
 main {
@@ -7,4 +31,16 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#native-language {
+    text-align: center;
+}
+
+#search-zone {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    height: 44px;
+    width: auto;
 }
